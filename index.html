@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>多模态智慧教育对话系统科普展示</title>
+    <meta
+      name="description"
+      content="面向智慧教育场景的多模态对话系统科普介绍，展示系统如何理解文字、图片、视频、语音和历史对话。"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top">多模态智慧教育对话系统</a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#overview">项目简介</a>
+        <a href="#challenge">关键问题</a>
+        <a href="#method">研究方法</a>
+        <a href="#impact">成果价值</a>
+        <a href="#faq">科普问答</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">智慧教育 · 多媒体对话 · 人工智能</p>
+          <h1>让机器不仅会“读文字”，还会看图、听声、理解视频和记住上下文</h1>
+          <p class="lead">
+            本项目面向智慧教育场景，研究能够理解文字、图片、视频、语音和历史对话的智能对话技术，
+            形成了多模态智慧教育对话系统原型，并在真实教学场景中开展应用验证。
+          </p>
+          <div class="hero-points" aria-label="项目能力摘要">
+            <span>看懂题目图片</span>
+            <span>理解实验视频</span>
+            <span>听懂语音提问</span>
+            <span>记住前后文</span>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/image1.png" alt="智慧教育、医疗问诊、电子商务和文化旅游等多模态对话应用场景">
+        </figure>
+      </section>
+
+      <section id="overview" class="section intro-grid">
+        <div>
+          <p class="section-kicker">项目简介</p>
+          <h2>从单一问答走向多媒体理解</h2>
+          <p>
+            通俗地说，这项研究希望让机器在回答学生问题时，不只依赖一句文字描述，而是能够综合图片、
+            视频、语音和前后文信息来判断用户真正想问什么，再给出更准确、更自然的解释。
+          </p>
+          <p>
+            项目围绕学生问题理解、多模态信息选择、知识图谱推理、多轮对话生成和智慧教育机器人验证等内容开展研究。
+          </p>
+        </div>
+        <aside class="quick-card">
+          <h3>一句话理解</h3>
+          <p>
+            这是一套让智能问答系统“更像人一样综合理解问题”的技术：看到题目、听到提问、结合历史对话，
+            再选择合适的文字、图片、音频或视频进行回答。
+          </p>
+        </aside>
+      </section>
+
+      <section class="section">
+        <p class="section-kicker">研究背景与社会价值</p>
+        <h2>现实中的问题很少只有一句文字</h2>
+        <p>
+          随着人工智能、大数据和多媒体技术的发展，人机交互正在从单一文字问答，逐步走向融合文本、
+          图像、视频、语音等多种信息形式的智能对话。学生可能上传一道题目图片并继续追问解题思路；
+          公众可能通过文字、图片和语音描述健康疑问；消费者可能结合商品图片咨询搭配建议；游客也可能拍摄景点视频询问历史背景。
+        </p>
+        <figure class="wide-figure">
+          <img src="assets/image2.png" alt="多场景、多模态和多模态历史记录带来的对话理解困难">
+        </figure>
+      </section>
+
+      <section id="challenge" class="section">
+        <p class="section-kicker">关键问题</p>
+        <h2>多媒体对话系统为什么难做？</h2>
+        <div class="challenge-grid">
+          <article>
+            <strong>场景感知误差</strong>
+            <p>系统面对智慧教育、医疗问诊、文化旅游、电子商务等不同场景时，容易误解复杂语义和用户真实意图。</p>
+          </article>
+          <article>
+            <strong>对话模态单一</strong>
+            <p>传统系统主要处理文字，难以跨越文字、图像、视频、语音之间的语义差异，也难以选择最合适的回答形式。</p>
+          </article>
+          <article>
+            <strong>上下文碎片化</strong>
+            <p>多轮对话中的历史记录可能混合图片、语音、视频和文字，系统如果不能关联这些线索，回答就会不连贯。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="method" class="section">
+        <p class="section-kicker">研究方法</p>
+        <h2>三条技术路线，让系统更懂问题</h2>
+
+        <div class="method-block">
+          <div class="method-copy">
+            <span class="step">01</span>
+            <h3>知识图谱与知识推理</h3>
+            <p>
+              项目通过构建面向不同应用场景的知识图谱，为机器建立一张类似“知识地图”的结构，
+              帮助系统理解概念、对象和事件之间的关系。系统不仅识别关键词，还要理解这些信息背后的知识联系。
+            </p>
+          </div>
+          <figure>
+            <img src="assets/image3.png" alt="知识图谱构建、实体关系提取和知识校验流程">
+          </figure>
+        </div>
+
+        <div class="method-block reverse">
+          <div class="method-copy">
+            <span class="step">02</span>
+            <h3>模态选择与答案生成</h3>
+            <p>
+              系统需要判断同一个问题更适合用文字、图片、音频还是视频回答。例如“布谷鸟怎么叫”更适合用音频，
+              “熊猫长什么样”更适合用图片，“如何去太和殿”则更适合结合文字说明和路线视频。
+            </p>
+          </div>
+          <figure>
+            <img src="assets/image4.png" alt="根据用户问题分析答案模态并选择视频、图像或音频回答">
+          </figure>
+        </div>
+
+        <div class="method-block">
+          <div class="method-copy">
+            <span class="step">03</span>
+            <h3>跨模态注意力与连续对话</h3>
+            <p>
+              真实交流往往不是一次性问答。用户会追问、补充或省略前文信息。项目通过跨模态注意力机制，
+              将历史对话中的文字、图片、视频和语音线索联系起来，让系统在多轮交流中保持回答连贯。
+            </p>
+          </div>
+          <figure>
+            <img src="assets/image5.png" alt="跨模态注意力机制从候选答案和历史问答中选择最终答案">
+          </figure>
+        </div>
+      </section>
+
+      <section id="impact" class="section impact">
+        <div>
+          <p class="section-kicker">数据知识产权成果</p>
+          <h2>从研究原型走向真实应用验证</h2>
+          <p>
+            暗物智能科技（广州）有限公司的“暗物智能多模态问答对话数据”获评
+            2024 年广东省数据知识产权十大典型案例，登记编号为粤 2024040300183。
+          </p>
+        </div>
+        <figure>
+          <img src="assets/image6.png" alt="广东省数据知识产权十大典型案例证书">
+        </figure>
+      </section>
+
+      <section id="faq" class="section faq">
+        <p class="section-kicker">常见问题与科普解读</p>
+        <h2>给非专业读者的四个问题</h2>
+        <details open>
+          <summary>什么是“多模态”？</summary>
+          <p>
+            多模态就是多种信息形式。文字、图片、视频、语音、动作、历史记录都可以是模态。
+            人类交流天然是多模态的，机器要更自然地与人对话，也需要同时理解多种模态。
+          </p>
+        </details>
+        <details>
+          <summary>为什么普通聊天机器人还不够？</summary>
+          <p>
+            普通聊天机器人往往主要处理文字，而智慧教育中的问题经常涉及题目图片、实验视频、语音提问和多轮追问。
+            如果系统看不懂图像视频，也记不住上下文，就很难提供准确解释。
+          </p>
+        </details>
+        <details>
+          <summary>什么是“多媒体对话系统”？</summary>
+          <p>
+            多媒体对话系统是能够理解和处理多种媒体信息的智能问答系统。它不只接收文字，
+            还可以结合图片、视频、语音等信息理解用户问题，并选择更合适的方式进行回答。
+          </p>
+        </details>
+        <details>
+          <summary>多媒体对话系统会不会替代老师？</summary>
+          <p>
+            更准确的定位是辅助老师和学生。系统可以帮助完成即时答疑、资料推荐、步骤解释和个性化反馈，
+            但教育中的情感引导、价值塑造和复杂教学决策仍需要教师发挥核心作用。
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>内容整理自《重点正文_6.5.docx》，用于项目成果科普性介绍与展示。</p>
+    </footer>
+  </body>
+</html>
